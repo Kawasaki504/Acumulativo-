@@ -1,0 +1,368 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#EAEAEA ;
+    color: rgb(5, 5, 5);
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#1F3B73;
+    padding: 15px;
+}
+
+.logo {
+    width: 150px;
+    order: 10; /* Mueve el logo a la derecha */
+    margin-right: 20px;
+}s
+
+/* Menú en la parte superior izquierda */
+nav {
+    order: 1; /* Asegura que el menú esté antes del logo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+/* Efecto de brillo al pasar el cursor */s
+nav ul li a {
+    text-decoration: calc();
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: #FFFFFF;
+    text-shadow: 0 0 8px #fffdfd;
+}
+
+/* Contenido principal */
+main {
+    padding: 10px;
+    max-width: 2000px;
+    margin: auto;
+    background-color: #EAEAEA;
+}
+
+h1, h2 {
+    color: #ff1100;
+    background-color: blanchedalmond;
+}
+
+h3{
+    color: blueviolet;
+}
+
+h4 {
+    color: rgb(4, 247, 45);
+}
+
+/* Texto alineado justificado */
+.justificado {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Imágenes */
+img {
+    width: 300%;
+    max-width: 350px;
+    height: calc();
+    border-radius: 8px;
+    display: block;
+    margin: 15px auto;
+
+}
+
+.contenedor {
+    display: flex;
+    align-items: flex-start; /* Alinea arriba los elementos */
+    gap:10%; /* Espacio entre imagen y texto */
+    margin: 20%;
+}
+
+.imagen img {
+    width: 300%; /* Ajusta según tu necesidad */
+    border-radius: 5%;
+}
+
+.texto {
+    flex: 20;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Footer */
+footer {
+    background-color: #141515;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Contenedor principal */
+.contenedor {
+    max-width: 800px;
+    margin: auto;
+    text-align: calc();
+}
+
+/* Cuadro de datos importantes */
+.cuadro-datos {
+    background-color: #1988ff;
+    color: white;
+    margin: auto;
+    text-align: calc(); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Lista dentro del cuadro */
+.cuadro-datos ul {
+    list-style: calc();
+    padding: 0;
+}
+
+.cuadro-datos ul li {
+    padding: 10px 0;
+    font-size: 18px;
+}
+/* tablas */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px;
+  }
+  
+  h1 {
+    text-align: justify;
+    color: #333;
+  }
+  
+  table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  th, td {
+    padding: 16px 20px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  th {
+    background-color: #007BFF;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  @media (max-width: 768px) {
+    table {
+      width: 100%;
+      font-size: 14px;
+    }
+  }
+
+
+
+
+  
+
+h1 {
+  text-align: justify;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.tabla-cesar {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  font-size: 1.1em;
+}
+
+.tabla-cesar th, .tabla-cesar td {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: justify;
+  vertical-align: top;
+}
+
+.tabla-cesar thead {
+  background-color: #333;
+  color: #fff;
+}
+
+.tabla-cesar img {
+  max-width: 105px;
+  height: calc();
+  display: block;
+  margin: 0 auto;
+}
+
+  
+
+  /* contexto historico */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 40px;
+  color: #333;
+}
+
+.contenedor-formulario {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  color: #222;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+input, select, textarea {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #4444dd;
+  outline: none;
+}
+
+button {
+  background-color: #4444dd;
+  color: #fff;
+  padding: 14px 20px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3333bb;
+}
+
+
+/* legado mapa */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 40px;
+  color: #333;
+}
+
+.contenedor-mapa {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #4444dd;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3333bb;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+ 
